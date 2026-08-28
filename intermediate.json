@@ -1,0 +1,1694 @@
+{
+  "quotation_ref": "MRA-2027-0641",
+  "travellers": 5,
+  "travel_start": "2027-07-05",
+  "travel_end": "2027-07-17",
+  "booked_lines": [
+    {
+      "line_id": "L01",
+      "region": "Cape Town",
+      "service_type": "meet_greet",
+      "description": "One Way Assistance",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Arrival or Departure",
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-05",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Meet & Greet: | One Way Assistance | Per Arrival or Departure"
+      }
+    },
+    {
+      "line_id": "L02",
+      "region": "Cape Town",
+      "service_type": "transfer",
+      "description": "Transfer CIA to Zone 1 (06H00-21H00) - with Guide",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Vehicle One Way",
+      "pickup": "CPT",
+      "dropoff": "The Camissa Boutique Hotel",
+      "date_start": "2027-07-05",
+      "date_end": null,
+      "modifiers": [
+        {
+          "label": "Trailer 6+ Pax",
+          "quantity": 1,
+          "denominator_hint": "per group",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 1,
+            "section": null,
+            "quote": "Included: 1 x Trailer 6+ Pax per group"
+          }
+        }
+      ],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Transfer: | Transfer CIA to Zone 1 (06H00-21H00) - with Guide | Per Vehicle One Way | Pick up: CPT | Drop off: The Camissa Boutique Hotel | Included: 1 x Trailer 6+ Pax per group"
+      }
+    },
+    {
+      "line_id": "L03-1",
+      "region": "Cape Town",
+      "service_type": "accommodation",
+      "description": "1 x Family Suite on a Bed and Breakfast basis",
+      "supplier_or_property": "The Camissa Boutique Hotel",
+      "room_type": "Family Suite",
+      "basis": "Bed and Breakfast",
+      "quantity": 1,
+      "unit_hint": null,
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-05",
+      "date_end": "2027-07-09",
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "In: Monday 05 Jul 27 Out: Friday 09 Jul 27 | Accommodation: The Camissa Boutique Hotel | 1 x Family Suite on a Bed and Breakfast basis | 1 x Classic Room on a Bed and Breakfast basis"
+      }
+    },
+    {
+      "line_id": "L03-2",
+      "region": "Cape Town",
+      "service_type": "accommodation",
+      "description": "1 x Classic Room on a Bed and Breakfast basis",
+      "supplier_or_property": "The Camissa Boutique Hotel",
+      "room_type": "Classic Room",
+      "basis": "Bed and Breakfast",
+      "quantity": 1,
+      "unit_hint": null,
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-05",
+      "date_end": "2027-07-09",
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "In: Monday 05 Jul 27 Out: Friday 09 Jul 27 | Accommodation: The Camissa Boutique Hotel | 1 x Family Suite on a Bed and Breakfast basis | 1 x Classic Room on a Bed and Breakfast basis"
+      }
+    },
+    {
+      "line_id": "L04",
+      "region": "Cape Town",
+      "service_type": "activity",
+      "description": "Half Day Rise & Climb - Table Mountain Hike",
+      "supplier_or_property": "SLOW Walks & Hikes",
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Half Day (per person)",
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-06",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Activity:SLOW Walks & Hikes | Half Day Rise & Climb - Table Mountain Hike | Half Day (per person)"
+      }
+    },
+    {
+      "line_id": "L05",
+      "region": "Cape Town",
+      "service_type": "unknown",
+      "description": "Full Day Peninsula Scenic Tour",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Private Tour",
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-07",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Full Day Peninsula Scenic Tour | Private Tour"
+      }
+    },
+    {
+      "line_id": "L06",
+      "region": "Cape Town",
+      "service_type": "day_tour",
+      "description": "Custom Private Tour",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Person",
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-08",
+      "date_end": null,
+      "modifiers": [
+        {
+          "label": "Per Group Extra",
+          "quantity": 1,
+          "denominator_hint": "per group",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 2,
+            "section": null,
+            "quote": "Included: 1 x Per Group Extra per group"
+          }
+        }
+      ],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Day Tour: | Custom Private Tour | Per Person | Included: 1 x Per Group Extra per group"
+      }
+    },
+    {
+      "line_id": "L07",
+      "region": "Cape Town",
+      "service_type": "transfer",
+      "description": "Transfer CIA to Zone 1 (06H00-21H00) - with Guide",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Vehicle One Way",
+      "pickup": "The Camissa Boutique Hotel",
+      "dropoff": "CPT",
+      "date_start": "2027-07-09",
+      "date_end": null,
+      "modifiers": [
+        {
+          "label": "Trailer 6+ Pax",
+          "quantity": 1,
+          "denominator_hint": "per group",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 2,
+            "section": null,
+            "quote": "Included: 1 x Trailer 6+ Pax per group"
+          }
+        }
+      ],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Transfer: | Transfer CIA to Zone 1 (06H00-21H00) - with Guide | Per Vehicle One Way | Pick up: The Camissa Boutique Hotel | Drop off: CPT | Included: 1 x Trailer 6+ Pax per group"
+      }
+    },
+    {
+      "line_id": "L08",
+      "region": "Cape Town",
+      "service_type": "flight",
+      "description": "Zambezi Air",
+      "supplier_or_property": "Zambezi Air",
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per person",
+      "pickup": "4Z, Cape Town",
+      "dropoff": "4Z, Hoedspruit",
+      "date_start": "2027-07-09",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Flight: Zambezi Air | Per person | Departure: 4Z, Cape Town | Arrival: 4Z, Hoedspruit"
+      }
+    },
+    {
+      "line_id": "L09",
+      "region": "Marula Reserve",
+      "service_type": "transfer",
+      "description": "Complimentary scheduled transfer",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": null,
+      "pickup": "HDS",
+      "dropoff": "Marula River Lodge",
+      "date_start": "2027-07-09",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Transfer: | Complimentary scheduled transfer | Collect 11h20, 12h10, 13h20 / Depart 09h30, 10h30, 11h00 | Pick up: HDS | Drop off: Marula River Lodge"
+      }
+    },
+    {
+      "line_id": "L10-1",
+      "region": "Marula Reserve",
+      "service_type": "accommodation",
+      "description": "Family Chalet on a Fully Inclusive (Selected beverages) basis",
+      "supplier_or_property": "Marula River Lodge",
+      "room_type": "Family Chalet",
+      "basis": "Fully Inclusive (Selected beverages)",
+      "quantity": 1,
+      "unit_hint": null,
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-09",
+      "date_end": "2027-07-11",
+      "modifiers": [
+        {
+          "label": "Consv Levy",
+          "quantity": 2,
+          "denominator_hint": "compulsory pax",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 2,
+            "section": null,
+            "quote": "Included: 2 x Consv Levy compulsory pax"
+          }
+        }
+      ],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "In: Friday 09 Jul 27 Out: Sunday 11 Jul 27 | Accommodation: Marula River Lodge | Family Chalet on a Fully Inclusive (Selected beverages) basis | Tented Pool Suite on a Fully Inclusive (Selected beverages) basis | Included: 2 x Consv Levy compulsory pax"
+      }
+    },
+    {
+      "line_id": "L10-2",
+      "region": "Marula Reserve",
+      "service_type": "accommodation",
+      "description": "Tented Pool Suite on a Fully Inclusive (Selected beverages) basis",
+      "supplier_or_property": "Marula River Lodge",
+      "room_type": "Tented Pool Suite",
+      "basis": "Fully Inclusive (Selected beverages)",
+      "quantity": 1,
+      "unit_hint": null,
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-09",
+      "date_end": "2027-07-11",
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "In: Friday 09 Jul 27 Out: Sunday 11 Jul 27 | Accommodation: Marula River Lodge | Family Chalet on a Fully Inclusive (Selected beverages) basis | Tented Pool Suite on a Fully Inclusive (Selected beverages) basis | Included: 2 x Consv Levy compulsory pax"
+      }
+    },
+    {
+      "line_id": "L11",
+      "region": "Hoedspruit",
+      "service_type": "transfer",
+      "description": "HDS to Kudu Sands Lodges",
+      "supplier_or_property": "Transfers & Tours",
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Person One Way",
+      "pickup": "Marula River Lodge",
+      "dropoff": "Kudu Ridge Private Game Reserve",
+      "date_start": "2027-07-11",
+      "date_end": null,
+      "modifiers": [
+        {
+          "label": "Vehicle Entrance Fee",
+          "quantity": 1,
+          "denominator_hint": "per group",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 2,
+            "section": null,
+            "quote": "Included: 1 x Vehicle Entrance Fee per group"
+          }
+        }
+      ],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Transfer:Transfers & Tours | HDS to Kudu Sands Lodges | Per Person One Way | Pick up: Marula River Lodge | Drop off: Kudu Ridge Private Game Reserve | Included: 1 x Vehicle Entrance Fee per group"
+      }
+    },
+    {
+      "line_id": "L12-1",
+      "region": "Hoedspruit",
+      "service_type": "accommodation",
+      "description": "2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis",
+      "supplier_or_property": "Kudu Ridge Private Game Reserve",
+      "room_type": "Luxury Suite",
+      "basis": "Fully Inclusive (Selected Beverages)",
+      "quantity": 2,
+      "unit_hint": null,
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-11",
+      "date_end": "2027-07-14",
+      "modifiers": [
+        {
+          "label": "Conservation Levy",
+          "quantity": 3,
+          "denominator_hint": "compulsory pax",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 2,
+            "section": null,
+            "quote": "Included: 3 x Conservation Levy compulsory pax"
+          }
+        },
+        {
+          "label": "Triple",
+          "quantity": 1,
+          "denominator_hint": "per group",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 2,
+            "section": null,
+            "quote": "Included: 1 x Triple per group"
+          }
+        }
+      ],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "In: Sunday 11 Jul 27 Out: Wednesday 14 Jul 27 | Accommodation: Kudu Ridge Private Game Reserve | 2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis | Included: 3 x Conservation Levy compulsory pax | Included: 1 x Triple per group"
+      }
+    },
+    {
+      "line_id": "L13",
+      "region": "Kruger Mpumalanga Airport",
+      "service_type": "transfer",
+      "description": "KMIA to Kudu Sands Lodges",
+      "supplier_or_property": "Transfers & Tours",
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Person One Way",
+      "pickup": "Kudu Ridge Private Game Reserve",
+      "dropoff": "MQP",
+      "date_start": "2027-07-14",
+      "date_end": null,
+      "modifiers": [
+        {
+          "label": "Entrance Fee",
+          "quantity": 1,
+          "denominator_hint": "per pax",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 2,
+            "section": null,
+            "quote": "Included: 1 x Entrance Fee per pax"
+          }
+        },
+        {
+          "label": "Vehicle Entrance Fee",
+          "quantity": 1,
+          "denominator_hint": "per group",
+          "source": {
+            "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+            "page": 2,
+            "section": null,
+            "quote": "Included: 1 x Vehicle Entrance Fee per group"
+          }
+        }
+      ],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Transfer:Transfers & Tours | KMIA to Kudu Sands Lodges | Per Person One Way | Pick up: Kudu Ridge Private Game Reserve | Drop off: MQP | Included: 1 x Entrance Fee per pax | Included: 1 x Vehicle Entrance Fee per group"
+      }
+    },
+    {
+      "line_id": "L14",
+      "region": "Nelspruit",
+      "service_type": "flight",
+      "description": "Zambezi Air",
+      "supplier_or_property": "Zambezi Air",
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Flights",
+      "pickup": "4Z, Nelspruit",
+      "dropoff": "4Z, Vilancoulos",
+      "date_start": "2027-07-14",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Flight: Zambezi Air | Flights | Per person | Departure: 4Z, Nelspruit | Arrival: 4Z, Vilancoulos"
+      }
+    },
+    {
+      "line_id": "L15",
+      "region": "Benguerra",
+      "service_type": "transfer",
+      "description": "Helicopter Transfer",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Person Per Way",
+      "pickup": "VNX",
+      "dropoff": "Ilha Azul Beach Lodge",
+      "date_start": "2027-07-14",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 3,
+        "section": null,
+        "quote": "Transfer: | Helicopter Transfer | Per Person Per Way | Pick up: VNX | Drop off: Ilha Azul Beach Lodge"
+      }
+    },
+    {
+      "line_id": "L16-1",
+      "region": "Benguerra",
+      "service_type": "accommodation",
+      "description": "1 x Beach Villa",
+      "supplier_or_property": "Ilha Azul Beach Lodge",
+      "room_type": "Beach Villa",
+      "basis": "Fully Inclusive",
+      "quantity": 1,
+      "unit_hint": null,
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-14",
+      "date_end": "2027-07-17",
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 3,
+        "section": null,
+        "quote": "In: Wednesday 14 Jul 27 Out: Saturday 17 Jul 27 | Accommodation: Ilha Azul Beach Lodge | 1 x Beach Villa & 1 x Beach Villa Grande on a Fully Inclusive basis"
+      }
+    },
+    {
+      "line_id": "L16-2",
+      "region": "Benguerra",
+      "service_type": "accommodation",
+      "description": "1 x Beach Villa Grande",
+      "supplier_or_property": "Ilha Azul Beach Lodge",
+      "room_type": "Beach Villa Grande",
+      "basis": "Fully Inclusive",
+      "quantity": 1,
+      "unit_hint": null,
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-14",
+      "date_end": "2027-07-17",
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 3,
+        "section": null,
+        "quote": "In: Wednesday 14 Jul 27 Out: Saturday 17 Jul 27 | Accommodation: Ilha Azul Beach Lodge | 1 x Beach Villa & 1 x Beach Villa Grande on a Fully Inclusive basis"
+      }
+    },
+    {
+      "line_id": "L17",
+      "region": "Benguerra",
+      "service_type": "transfer",
+      "description": "Helicopter Transfer",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Person Per Way",
+      "pickup": "Ilha Azul Beach Lodge",
+      "dropoff": "VNX",
+      "date_start": "2027-07-17",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 3,
+        "section": null,
+        "quote": "Transfer: | Helicopter Transfer | Per Person Per Way | Pick up: Ilha Azul Beach Lodge | Drop off: VNX"
+      }
+    },
+    {
+      "line_id": "L18",
+      "region": "Vilancoulos",
+      "service_type": "flight",
+      "description": "Zambezi Air",
+      "supplier_or_property": "Zambezi Air",
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": null,
+      "pickup": "4Z, Vilancoulos",
+      "dropoff": "4Z, Johannesburg",
+      "date_start": "2027-07-17",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 3,
+        "section": null,
+        "quote": "Flight: Zambezi Air | Departure: 4Z, Vilancoulos | Arrival: 4Z, Johannesburg"
+      }
+    },
+    {
+      "line_id": "L19",
+      "region": "Johannesburg",
+      "service_type": "meet_greet",
+      "description": "One Way Assistance",
+      "supplier_or_property": null,
+      "room_type": null,
+      "basis": null,
+      "quantity": 1,
+      "unit_hint": "Per Arrival or Departure",
+      "pickup": null,
+      "dropoff": null,
+      "date_start": "2027-07-17",
+      "date_end": null,
+      "modifiers": [],
+      "source": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "page": 3,
+        "section": null,
+        "quote": "Meet & Greet: | One Way Assistance | Per Arrival or Departure"
+      }
+    }
+  ],
+  "rates": [
+    {
+      "rate_id": "R01",
+      "supplier": "The Camissa Boutique Hotel",
+      "product": "Family Suite",
+      "basis": "Bed & Breakfast",
+      "price": {
+        "amount": "340.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per room per night",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "1",
+        "quote": "The Camissa Boutique Hotel Family Suite Bed & Breakfast 340.00 per room per night 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R02",
+      "supplier": "The Camissa Boutique Hotel",
+      "product": "Classic Room",
+      "basis": "Bed & Breakfast",
+      "price": {
+        "amount": "210.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per room per night",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "1",
+        "quote": "The Camissa Boutique Hotel Classic Room Bed & Breakfast 210.00 per room per night 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R03",
+      "supplier": "The Camissa Boutique Hotel",
+      "product": "Deluxe Sea Facing",
+      "basis": "Bed & Breakfast",
+      "price": {
+        "amount": "295.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per room per night",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "1",
+        "quote": "The Camissa Boutique Hotel Deluxe Sea Facing Bed & Breakfast 295.00 per room per night 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R04",
+      "supplier": "Cape Town Touring & Transfers",
+      "product": "One Way Assistance (Meet & Greet)",
+      "basis": null,
+      "price": {
+        "amount": "45.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person per movement",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "2",
+        "quote": "One Way Assistance (Meet & Greet) 45.00 per person per movement Arrival or departure. Charged each way."
+      }
+    },
+    {
+      "rate_id": "R05",
+      "supplier": "Cape Town Touring & Transfers",
+      "product": "Transfer CIA to Zone 1, 06H00–21H00, with guide",
+      "basis": null,
+      "price": {
+        "amount": "210.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per vehicle one way",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "2",
+        "quote": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00 per vehicle one way Zone 1 covers City Bowl, Atlantic Seaboard, V&A."
+      }
+    },
+    {
+      "rate_id": "R06",
+      "supplier": "Cape Town Touring & Transfers",
+      "product": "Transfer CIA to Zone 1, 21H00–06H00, with guide",
+      "basis": null,
+      "price": {
+        "amount": "285.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per vehicle one way",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "2",
+        "quote": "Transfer CIA to Zone 1, 21H00–06H00, with guide285.00 per vehicle one way After-hours surcharge applies."
+      }
+    },
+    {
+      "rate_id": "R07",
+      "supplier": "Cape Town Touring & Transfers",
+      "product": "SLOW Walks & Hikes — Rise & Climb, Table Mountain",
+      "basis": null,
+      "price": {
+        "amount": "95.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "2",
+        "quote": "SLOW Walks & Hikes — Rise & Climb, Table Mou9n5t.a0i0n per person Half day. Minimum 2 pax."
+      }
+    },
+    {
+      "rate_id": "R08",
+      "supplier": "Cape Town Touring & Transfers",
+      "product": "Full Day Peninsula Scenic Tour, private",
+      "basis": null,
+      "price": {
+        "amount": "480.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per vehicle",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "2",
+        "quote": "Full Day Peninsula Scenic Tour, private 480.00 per vehicle Max 7 pax per vehicle. Entrances included."
+      }
+    },
+    {
+      "rate_id": "R09",
+      "supplier": "Cape Town Touring & Transfers",
+      "product": "Custom Private Tour, full day",
+      "basis": null,
+      "price": {
+        "amount": "145.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "2",
+        "quote": "Custom Private Tour, full day 145.00 per person Guide and vehicle included. See note 2b."
+      }
+    },
+    {
+      "rate_id": "R10",
+      "supplier": "Marula River Lodge",
+      "product": "Family Chalet",
+      "basis": null,
+      "price": {
+        "amount": "620.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per chalet per night",
+      "validity": null,
+      "season": {
+        "name": "Green Season",
+        "start": "2027-04-01",
+        "end": "2027-07-09",
+        "raw": "Green Season 01 Apr 27 – 09 Jul 27"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "3",
+        "quote": "Family Chalet 620.00 890.00 per chalet per night"
+      }
+    },
+    {
+      "rate_id": "R11",
+      "supplier": "Marula River Lodge",
+      "product": "Family Chalet",
+      "basis": null,
+      "price": {
+        "amount": "890.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per chalet per night",
+      "validity": null,
+      "season": {
+        "name": "Peak Season",
+        "start": "2027-07-09",
+        "end": "2027-10-31",
+        "raw": "Peak Season 09 Jul 27 – 31 Oct 27"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "3",
+        "quote": "Family Chalet 620.00 890.00 per chalet per night"
+      }
+    },
+    {
+      "rate_id": "R12",
+      "supplier": "Marula River Lodge",
+      "product": "Tented Pool Suite",
+      "basis": null,
+      "price": {
+        "amount": "540.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per suite per night",
+      "validity": null,
+      "season": {
+        "name": "Green Season",
+        "start": "2027-04-01",
+        "end": "2027-07-09",
+        "raw": "Green Season 01 Apr 27 – 09 Jul 27"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "3",
+        "quote": "Tented Pool Suite 540.00 760.00 per suite per night"
+      }
+    },
+    {
+      "rate_id": "R13",
+      "supplier": "Marula River Lodge",
+      "product": "Tented Pool Suite",
+      "basis": null,
+      "price": {
+        "amount": "760.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per suite per night",
+      "validity": null,
+      "season": {
+        "name": "Peak Season",
+        "start": "2027-07-09",
+        "end": "2027-10-31",
+        "raw": "Peak Season 09 Jul 27 – 31 Oct 27"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "3",
+        "quote": "Tented Pool Suite 540.00 760.00 per suite per night"
+      }
+    },
+    {
+      "rate_id": "R14",
+      "supplier": "Marula River Lodge",
+      "product": "River Lodge Standard",
+      "basis": null,
+      "price": {
+        "amount": "460.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per room per night",
+      "validity": null,
+      "season": {
+        "name": "Green Season",
+        "start": "2027-04-01",
+        "end": "2027-07-09",
+        "raw": "Green Season 01 Apr 27 – 09 Jul 27"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "3",
+        "quote": "River Lodge Standard 460.00 640.00 per room per night"
+      }
+    },
+    {
+      "rate_id": "R15",
+      "supplier": "Marula River Lodge",
+      "product": "River Lodge Standard",
+      "basis": null,
+      "price": {
+        "amount": "640.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per room per night",
+      "validity": null,
+      "season": {
+        "name": "Peak Season",
+        "start": "2027-07-09",
+        "end": "2027-10-31",
+        "raw": "Peak Season 09 Jul 27 – 31 Oct 27"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "3",
+        "quote": "River Lodge Standard 460.00 640.00 per room per night"
+      }
+    },
+    {
+      "rate_id": "R16",
+      "supplier": "Kudu Ridge Private Game Reserve",
+      "product": "Luxury Suite",
+      "basis": null,
+      "price": {
+        "amount": "890.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person sharing per night",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "4",
+        "quote": "Luxury Suite 890.00 per person sharing per night Max 2 adults. See note 4a for triple."
+      }
+    },
+    {
+      "rate_id": "R17",
+      "supplier": "Kudu Ridge Private Game Reserve",
+      "product": "Luxury Suite — single occupancy",
+      "basis": null,
+      "price": {
+        "amount": "1245.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person per night",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "4",
+        "quote": "Luxury Suite — single occupancy1,245.00 per person per night Single supplement applied."
+      }
+    },
+    {
+      "rate_id": "R18",
+      "supplier": "Kudu Ridge Private Game Reserve",
+      "product": "Ivory Presidential Suite",
+      "basis": null,
+      "price": {
+        "amount": "1480.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person sharing per night",
+      "validity": null,
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "4",
+        "quote": "Ivory Presidential Suite 1,480.00 per person sharing per night Min 2 nights."
+      }
+    },
+    {
+      "rate_id": "R19",
+      "supplier": "Transfers & Tours",
+      "product": "HDS to Kudu Sands lodges",
+      "basis": null,
+      "price": {
+        "amount": "165.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person one way",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "5",
+        "quote": "HDS to Kudu Sands lodges 165.00 per person one way 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R20",
+      "supplier": "Transfers & Tours",
+      "product": "Kudu Sands lodges to MQP (Kruger Mpumalanga)",
+      "basis": null,
+      "price": {
+        "amount": "190.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person one way",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "5",
+        "quote": "Kudu Sands lodges to MQP (Kruger Mpumalanga) 190.00 per person one way 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R21",
+      "supplier": "Transfers & Tours",
+      "product": "HDS to Marula Reserve lodges",
+      "basis": null,
+      "price": {
+        "amount": "140.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person one way",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "5",
+        "quote": "HDS to Marula Reserve lodges 140.00 per person one way 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R22",
+      "supplier": "Ilha Azul Beach Lodge",
+      "product": "Beach Villa",
+      "basis": null,
+      "price": {
+        "amount": "780.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per villa per night",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "6",
+        "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R23",
+      "supplier": "Ilha Azul Beach Lodge",
+      "product": "Infinity Beach Villa",
+      "basis": null,
+      "price": {
+        "amount": "1040.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per villa per night",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "6",
+        "quote": "Infinity Beach Villa 1,040.00 per villa per night 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R24",
+      "supplier": "Ilha Azul Beach Lodge",
+      "product": "Presidential Villa",
+      "basis": null,
+      "price": {
+        "amount": "2150.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per villa per night",
+      "validity": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "raw": "01 Jan 27 – 31 Dec 27",
+        "carried_forward": false
+      },
+      "season": null,
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "6",
+        "quote": "Presidential Villa 2,150.00 per villa per night 01 Jan 27 – 31 Dec 27"
+      }
+    },
+    {
+      "rate_id": "R25",
+      "supplier": "Mozambique Air & Sea Transfers",
+      "product": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodges",
+      "basis": null,
+      "price": {
+        "amount": "395.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person per way",
+      "validity": {
+        "start": "2025-01-01",
+        "end": "2026-12-31",
+        "raw": "01 Jan 25 – 31 Dec 26 (2025 tariff, carried forward)",
+        "carried_forward": true
+      },
+      "season": null,
+      "confidence": "expired",
+      "confidence_reason": "Carried-forward tariff; the pack states validity 01 Jan 25 – 31 Dec 26 (2025 tariff, carried forward). Pack section 7: \"Reconfirm before quoting.\"",
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "7",
+        "quote": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodge3s95.00 per person per way 01 Jan 25 – 31 Dec 26"
+      }
+    },
+    {
+      "rate_id": "R26",
+      "supplier": "Mozambique Air & Sea Transfers",
+      "product": "Speedboat transfer VNX – Benguerra island lodges",
+      "basis": null,
+      "price": {
+        "amount": "145.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per person per way",
+      "validity": {
+        "start": "2025-01-01",
+        "end": "2026-12-31",
+        "raw": "01 Jan 25 – 31 Dec 26 (2025 tariff, carried forward)",
+        "carried_forward": true
+      },
+      "season": null,
+      "confidence": "expired",
+      "confidence_reason": "Carried-forward tariff; the pack states validity 01 Jan 25 – 31 Dec 26 (2025 tariff, carried forward). Pack section 7: \"Reconfirm before quoting.\"",
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "7",
+        "quote": "Speedboat transfer VNX – Benguerra island lodges 145.00 per person per way 01 Jan 25 – 31 Dec 26"
+      }
+    }
+  ],
+  "overrides": [
+    {
+      "override_id": "O01",
+      "supplier": "The Camissa Boutique Hotel",
+      "product": "Family Suite",
+      "price": {
+        "amount": "375.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per room per night",
+      "sent_at": "2026-08-12",
+      "effective_scope": "June. The corrected rates, effective for all 2027 arrivals, are:",
+      "supersession_claim": "These supersede anything you have on file for 2027. Sorry for the late notice,",
+      "source": {
+        "document": "Supplier-email-Camissa-2027-rates.txt",
+        "page": 1,
+        "section": null,
+        "quote": "Family Suite (B&B)        USD 375.00 per room per night"
+      }
+    },
+    {
+      "override_id": "O02",
+      "supplier": "The Camissa Boutique Hotel",
+      "product": "Classic Room",
+      "price": {
+        "amount": "230.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per room per night",
+      "sent_at": "2026-08-12",
+      "effective_scope": "June. The corrected rates, effective for all 2027 arrivals, are:",
+      "supersession_claim": "These supersede anything you have on file for 2027. Sorry for the late notice,",
+      "source": {
+        "document": "Supplier-email-Camissa-2027-rates.txt",
+        "page": 1,
+        "section": null,
+        "quote": "Classic Room (B&B)        USD 230.00 per room per night"
+      }
+    },
+    {
+      "override_id": "O03",
+      "supplier": "The Camissa Boutique Hotel",
+      "product": "Deluxe Sea Facing",
+      "price": {
+        "amount": "320.00",
+        "currency": "USD"
+      },
+      "unit": null,
+      "unit_raw": "per room per night",
+      "sent_at": "2026-08-12",
+      "effective_scope": "June. The corrected rates, effective for all 2027 arrivals, are:",
+      "supersession_claim": "These supersede anything you have on file for 2027. Sorry for the late notice,",
+      "source": {
+        "document": "Supplier-email-Camissa-2027-rates.txt",
+        "page": 1,
+        "section": null,
+        "quote": "Deluxe Sea Facing (B&B)   USD 320.00 per room per night"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "condition_id": "C01",
+      "rule_key": "carried_forward_tariff",
+      "quote": "Where a supplier has not yet released 2027 rates the most recent published tariff is carried forward and the validity date is shown in the Validity column.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Where a supplier has not yet released 2027 rates the most recent published tariff is carried forward and the validity date is shown in the Validity column."
+      }
+    },
+    {
+      "condition_id": "C02",
+      "rule_key": "carried_forward_tariff",
+      "quote": "Carried-forward rates are indicative only.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Carried-forward rates are indicative only."
+      }
+    },
+    {
+      "condition_id": "C03",
+      "rule_key": "single_occupancy",
+      "quote": "Single occupancy: no reduction.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "1",
+        "quote": "Single occupancy: no reduction."
+      }
+    },
+    {
+      "condition_id": "C04",
+      "rule_key": "tax_included",
+      "quote": "City tourism levy of 1% is included in the rates shown.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "1",
+        "quote": "City tourism levy of 1% is included in the rates shown."
+      }
+    },
+    {
+      "condition_id": "C05",
+      "rule_key": "trailer_supplement",
+      "quote": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer.",
+      "label": null,
+      "amount": {
+        "amount": "65.00",
+        "currency": "USD"
+      },
+      "unit_raw": "per group",
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "2",
+        "quote": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer."
+      }
+    },
+    {
+      "condition_id": "C06",
+      "rule_key": "per_group_extra",
+      "quote": "Custom Private Tour is subject to a Per Group Extra of 140.00 per group covering permits, parking and driver-guide overtime allowance.",
+      "label": null,
+      "amount": {
+        "amount": "140.00",
+        "currency": "USD"
+      },
+      "unit_raw": "per group",
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": "2",
+        "quote": "Custom Private Tour is subject to a Per Group Extra of 140.00 per group covering permits, parking and driver-guide overtime allowance."
+      }
+    },
+    {
+      "condition_id": "C07",
+      "rule_key": "conservation_levy",
+      "quote": "Marula Reserve Conservation Levy: 28.00 per person per night, compulsory, payable on all stays.",
+      "label": null,
+      "amount": {
+        "amount": "28.00",
+        "currency": "USD"
+      },
+      "unit_raw": "per per",
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "3",
+        "quote": "Marula Reserve Conservation Levy: 28.00 per person per night, compulsory, payable on all stays."
+      }
+    },
+    {
+      "condition_id": "C08",
+      "rule_key": "complimentary_transfer",
+      "quote": "Complimentary scheduled road transfer from Hoedspruit Airport (HDS) is included for guests staying two nights or more.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "3",
+        "quote": "Complimentary scheduled road transfer from Hoedspruit Airport (HDS) is included for guests staying two nights or more."
+      }
+    },
+    {
+      "condition_id": "C09",
+      "rule_key": "triple_occupancy",
+      "quote": "4a. Triple occupancy is available in Luxury Suites on request.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "4",
+        "quote": "4a. Triple occupancy is available in Luxury Suites on request."
+      }
+    },
+    {
+      "condition_id": "C10",
+      "rule_key": "conservation_levy",
+      "quote": "Kudu Sands Conservation Levy: 35.00 per person per night, compulsory.",
+      "label": null,
+      "amount": {
+        "amount": "35.00",
+        "currency": "USD"
+      },
+      "unit_raw": "per per",
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "4",
+        "quote": "Kudu Sands Conservation Levy: 35.00 per person per night, compulsory."
+      }
+    },
+    {
+      "condition_id": "C11",
+      "rule_key": "gate_fees",
+      "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry.",
+      "label": "Vehicle Entrance Fee",
+      "amount": {
+        "amount": "40.00",
+        "currency": "USD"
+      },
+      "unit_raw": "per group per entry",
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "5",
+        "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+      }
+    },
+    {
+      "condition_id": "C12",
+      "rule_key": "gate_fees",
+      "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry.",
+      "label": "Entrance Fee",
+      "amount": {
+        "amount": "25.00",
+        "currency": "USD"
+      },
+      "unit_raw": "per pax per entry",
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": "5",
+        "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+      }
+    },
+    {
+      "condition_id": "C13",
+      "rule_key": "tax_included",
+      "quote": "Mozambique tourism tax and marine park fees are included in the rates shown.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "6",
+        "quote": "Mozambique tourism tax and marine park fees are included in the rates shown."
+      }
+    },
+    {
+      "condition_id": "C14",
+      "rule_key": "carried_forward_tariff",
+      "quote": "2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "7",
+        "quote": "2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled."
+      }
+    },
+    {
+      "condition_id": "C15",
+      "rule_key": "air_not_carried",
+      "quote": "Airfares are not carried in this pack.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "8",
+        "quote": "Airfares are not carried in this pack."
+      }
+    },
+    {
+      "condition_id": "C16",
+      "rule_key": "no_rate_requote",
+      "quote": "Where a service is shown in an operational quotation but no corresponding rate appears in this pack, the service must be re-quoted with the supplier before the quotation is issued.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "9",
+        "quote": "Where a service is shown in an operational quotation but no corresponding rate appears in this pack, the service must be re-quoted with the supplier before the quotation is issued."
+      }
+    },
+    {
+      "condition_id": "C17",
+      "rule_key": "correspondence_precedence",
+      "quote": "Where a rate has been superseded by written supplier correspondence, the correspondence takes precedence over this pack.",
+      "label": null,
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 3,
+        "section": "9",
+        "quote": "Where a rate has been superseded by written supplier correspondence, the correspondence takes precedence over this pack."
+      }
+    },
+    {
+      "condition_id": "C18",
+      "rule_key": "capacity_constraint",
+      "quote": "Minimum 2 pax.",
+      "label": "SLOW Walks & Hikes — Rise & Climb, Table M",
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Minimum 2 pax."
+      }
+    },
+    {
+      "condition_id": "C19",
+      "rule_key": "capacity_constraint",
+      "quote": "Max 7 pax per vehicle.",
+      "label": "Full Day Peninsula Scenic Tour, private",
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 1,
+        "section": null,
+        "quote": "Max 7 pax per vehicle."
+      }
+    },
+    {
+      "condition_id": "C20",
+      "rule_key": "capacity_constraint",
+      "quote": "Max 2 adults.",
+      "label": "Luxury Suite",
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Max 2 adults."
+      }
+    },
+    {
+      "condition_id": "C21",
+      "rule_key": "single_occupancy",
+      "quote": "Single supplement applied.",
+      "label": "Luxury Suite — single occupancy",
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Single supplement applied."
+      }
+    },
+    {
+      "condition_id": "C22",
+      "rule_key": "capacity_constraint",
+      "quote": "Min 2 nights.",
+      "label": "Ivory Presidential Suite",
+      "amount": null,
+      "unit_raw": null,
+      "applies_when_text": null,
+      "candidates": [],
+      "source": {
+        "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+        "page": 2,
+        "section": null,
+        "quote": "Min 2 nights."
+      }
+    }
+  ],
+  "system_warnings": [
+    "L16-1: split by model into 1 x Beach Villa, 1 x Beach Villa Grande — each name verified as a literal span of '1 x Beach Villa & 1 x Beach Villa Grande on a Fully Inclusive basis'."
+  ]
+}

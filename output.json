@@ -1,0 +1,2007 @@
+{
+  "quotation_ref": "MRA-2027-0641",
+  "travellers": 5,
+  "currency": "USD",
+  "costed_lines": [
+    {
+      "line_id": "L01",
+      "description": "One Way Assistance",
+      "region": "Cape Town",
+      "date_start": "2027-07-05",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "45.00",
+        "currency": "USD"
+      },
+      "units_charged": 5,
+      "calculation": "5 persons x 1 movement x USD 45.00, per person per movement",
+      "total": {
+        "amount": "225.00",
+        "currency": "USD"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "resolution": {
+        "winner": "R04",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "One Way Assistance (Meet & Greet) 45.00 per person per movement Arrival or departure. Charged each way."
+        },
+        "rule": "best match 0.72, clear of the runner-up by 0.25",
+        "rejected": [
+          {
+            "rate_id": "R01",
+            "product": "Family Suite",
+            "score": 0.467,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Family Suite Bed & Breakfast 340.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R03",
+            "product": "Deluxe Sea Facing",
+            "score": 0.4,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Deluxe Sea Facing Bed & Breakfast 295.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R16",
+            "product": "Luxury Suite",
+            "score": 0.4,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "4",
+              "quote": "Luxury Suite 890.00 per person sharing per night Max 2 adults. See note 4a for triple."
+            }
+          }
+        ],
+        "reason": "'One Way Assistance' matched 'One Way Assistance (Meet & Greet)'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "One Way Assistance (Meet & Greet) 45.00 per person per movement Arrival or departure. Charged each way."
+        }
+      ],
+      "review_refs": []
+    },
+    {
+      "line_id": "L02",
+      "description": "Transfer CIA to Zone 1 (06H00-21H00) - with Guide",
+      "region": "Cape Town",
+      "date_start": "2027-07-05",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "210.00",
+        "currency": "USD"
+      },
+      "units_charged": 1,
+      "calculation": "1 vehicle x 1 one way x USD 210.00, per vehicle one way + 1 group x 1 transfer x USD 65.00",
+      "total": {
+        "amount": "275.00",
+        "currency": "USD"
+      },
+      "confidence": "assumed",
+      "confidence_reason": "1 group x 1 transfer x USD 65.00 = USD 65.00 (Trailer supplement, charged per transfer: 2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer.) Party of 5 is below the pack's stated threshold of 6.",
+      "resolution": {
+        "winner": "R05",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00 per vehicle one way Zone 1 covers City Bowl, Atlantic Seaboard, V&A."
+        },
+        "rule": "best match 0.98, clear of the runner-up by 0.10",
+        "rejected": [
+          {
+            "rate_id": "R06",
+            "product": "Transfer CIA to Zone 1, 21H00–06H00, with guide",
+            "score": 0.875,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "2",
+              "quote": "Transfer CIA to Zone 1, 21H00–06H00, with guide285.00 per vehicle one way After-hours surcharge applies."
+            }
+          },
+          {
+            "rate_id": "R25",
+            "product": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodges",
+            "score": 0.378,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "7",
+              "quote": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodge3s95.00 per person per way 01 Jan 25 – 31 Dec 26"
+            }
+          },
+          {
+            "rate_id": "R26",
+            "product": "Speedboat transfer VNX – Benguerra island lodges",
+            "score": 0.371,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "7",
+              "quote": "Speedboat transfer VNX – Benguerra island lodges 145.00 per person per way 01 Jan 25 – 31 Dec 26"
+            }
+          }
+        ],
+        "reason": "'Transfer CIA to Zone 1 (06H00-21H00) - with Guide' matched 'Transfer CIA to Zone 1, 06H00–21H00, with guide'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00 per vehicle one way Zone 1 covers City Bowl, Atlantic Seaboard, V&A."
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer."
+        }
+      ],
+      "review_refs": [
+        "Q01"
+      ]
+    },
+    {
+      "line_id": "L03-1",
+      "description": "1 x Family Suite on a Bed and Breakfast basis",
+      "region": "Cape Town",
+      "date_start": "2027-07-05",
+      "date_end": "2027-07-09",
+      "quantity": 1,
+      "unit_price": {
+        "amount": "375.00",
+        "currency": "USD"
+      },
+      "units_charged": 4,
+      "calculation": "1 x 4 nights, per room per night",
+      "total": {
+        "amount": "1500.00",
+        "currency": "USD"
+      },
+      "confidence": "superseded_by_correspondence",
+      "confidence_reason": "Where a rate has been superseded by written supplier correspondence, the correspondence takes precedence over this pack.",
+      "resolution": {
+        "winner": "R01",
+        "winner_source": {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Family Suite (B&B)        USD 375.00 per room per night"
+        },
+        "rule": "superseded by written supplier correspondence (pack section 9)",
+        "rejected": [],
+        "reason": "The Camissa Boutique Hotel wrote on 12 Aug 2026: These supersede anything you have on file for 2027. Sorry for the late notice, Priced at USD 375.00, not at the pack rate."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Family Suite (B&B)        USD 375.00 per room per night"
+        },
+        {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Family Suite (B&B)        USD 375.00 per room per night"
+        },
+        {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Family Suite (B&B)        USD 375.00 per room per night"
+        },
+        {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Family Suite (B&B)        USD 375.00 per room per night"
+        }
+      ],
+      "review_refs": [
+        "Q02"
+      ]
+    },
+    {
+      "line_id": "L03-2",
+      "description": "1 x Classic Room on a Bed and Breakfast basis",
+      "region": "Cape Town",
+      "date_start": "2027-07-05",
+      "date_end": "2027-07-09",
+      "quantity": 1,
+      "unit_price": {
+        "amount": "230.00",
+        "currency": "USD"
+      },
+      "units_charged": 4,
+      "calculation": "1 x 4 nights, per room per night",
+      "total": {
+        "amount": "920.00",
+        "currency": "USD"
+      },
+      "confidence": "superseded_by_correspondence",
+      "confidence_reason": "Where a rate has been superseded by written supplier correspondence, the correspondence takes precedence over this pack.",
+      "resolution": {
+        "winner": "R02",
+        "winner_source": {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Classic Room (B&B)        USD 230.00 per room per night"
+        },
+        "rule": "superseded by written supplier correspondence (pack section 9)",
+        "rejected": [],
+        "reason": "The Camissa Boutique Hotel wrote on 12 Aug 2026: These supersede anything you have on file for 2027. Sorry for the late notice, Priced at USD 230.00, not at the pack rate."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Classic Room (B&B)        USD 230.00 per room per night"
+        },
+        {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Classic Room (B&B)        USD 230.00 per room per night"
+        },
+        {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Classic Room (B&B)        USD 230.00 per room per night"
+        },
+        {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "page": 1,
+          "section": null,
+          "quote": "Classic Room (B&B)        USD 230.00 per room per night"
+        }
+      ],
+      "review_refs": [
+        "Q03"
+      ]
+    },
+    {
+      "line_id": "L04",
+      "description": "Half Day Rise & Climb - Table Mountain Hike",
+      "region": "Cape Town",
+      "date_start": "2027-07-06",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "95.00",
+        "currency": "USD"
+      },
+      "units_charged": 5,
+      "calculation": "5 persons x USD 95.00, per person",
+      "total": {
+        "amount": "475.00",
+        "currency": "USD"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "resolution": {
+        "winner": "R07",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "SLOW Walks & Hikes — Rise & Climb, Table Mou9n5t.a0i0n per person Half day. Minimum 2 pax."
+        },
+        "rule": "best match 0.70, clear of the runner-up by 0.29",
+        "rejected": [
+          {
+            "rate_id": "R17",
+            "product": "Luxury Suite — single occupancy",
+            "score": 0.405,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "4",
+              "quote": "Luxury Suite — single occupancy1,245.00 per person per night Single supplement applied."
+            }
+          },
+          {
+            "rate_id": "R04",
+            "product": "One Way Assistance (Meet & Greet)",
+            "score": 0.373,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "2",
+              "quote": "One Way Assistance (Meet & Greet) 45.00 per person per movement Arrival or departure. Charged each way."
+            }
+          },
+          {
+            "rate_id": "R21",
+            "product": "HDS to Marula Reserve lodges",
+            "score": 0.338,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "5",
+              "quote": "HDS to Marula Reserve lodges 140.00 per person one way 01 Jan 27 – 31 Dec 27"
+            }
+          }
+        ],
+        "reason": "'Half Day Rise & Climb - Table Mountain Hike' matched 'SLOW Walks & Hikes — Rise & Climb, Table Mountain'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "SLOW Walks & Hikes — Rise & Climb, Table Mou9n5t.a0i0n per person Half day. Minimum 2 pax."
+        }
+      ],
+      "review_refs": []
+    },
+    {
+      "line_id": "L05",
+      "description": "Full Day Peninsula Scenic Tour",
+      "region": "Cape Town",
+      "date_start": "2027-07-07",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "480.00",
+        "currency": "USD"
+      },
+      "units_charged": 1,
+      "calculation": "1 vehicle x USD 480.00, per vehicle",
+      "total": {
+        "amount": "480.00",
+        "currency": "USD"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "resolution": {
+        "winner": "R08",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Full Day Peninsula Scenic Tour, private 480.00 per vehicle Max 7 pax per vehicle. Entrances included."
+        },
+        "rule": "best match 0.87, clear of the runner-up by 0.52",
+        "rejected": [
+          {
+            "rate_id": "R21",
+            "product": "HDS to Marula Reserve lodges",
+            "score": 0.345,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "5",
+              "quote": "HDS to Marula Reserve lodges 140.00 per person one way 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R01",
+            "product": "Family Suite",
+            "score": 0.333,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Family Suite Bed & Breakfast 340.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R02",
+            "product": "Classic Room",
+            "score": 0.333,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Classic Room Bed & Breakfast 210.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          }
+        ],
+        "reason": "'Full Day Peninsula Scenic Tour' matched 'Full Day Peninsula Scenic Tour, private'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Full Day Peninsula Scenic Tour, private 480.00 per vehicle Max 7 pax per vehicle. Entrances included."
+        }
+      ],
+      "review_refs": []
+    },
+    {
+      "line_id": "L06",
+      "description": "Custom Private Tour",
+      "region": "Cape Town",
+      "date_start": "2027-07-08",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "145.00",
+        "currency": "USD"
+      },
+      "units_charged": 5,
+      "calculation": "5 persons x USD 145.00, per person + 1 group x USD 140.00",
+      "total": {
+        "amount": "865.00",
+        "currency": "USD"
+      },
+      "confidence": "contracted",
+      "confidence_reason": "1 group x USD 140.00 = USD 140.00 (Per Group Extra: Custom Private Tour is subject to a Per Group Extra of 140.00 per group covering permits, parking and driver-guide overtime allowance.)",
+      "resolution": {
+        "winner": "R09",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Custom Private Tour, full day 145.00 per person Guide and vehicle included. See note 2b."
+        },
+        "rule": "best match 0.79, clear of the runner-up by 0.41",
+        "rejected": [
+          {
+            "rate_id": "R08",
+            "product": "Full Day Peninsula Scenic Tour, private",
+            "score": 0.379,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "2",
+              "quote": "Full Day Peninsula Scenic Tour, private 480.00 per vehicle Max 7 pax per vehicle. Entrances included."
+            }
+          },
+          {
+            "rate_id": "R18",
+            "product": "Ivory Presidential Suite",
+            "score": 0.372,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "4",
+              "quote": "Ivory Presidential Suite 1,480.00 per person sharing per night Min 2 nights."
+            }
+          },
+          {
+            "rate_id": "R14",
+            "product": "River Lodge Standard",
+            "score": 0.359,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "River Lodge Standard 460.00 640.00 per room per night"
+            }
+          }
+        ],
+        "reason": "'Custom Private Tour' matched 'Custom Private Tour, full day'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Custom Private Tour, full day 145.00 per person Guide and vehicle included. See note 2b."
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Custom Private Tour is subject to a Per Group Extra of 140.00 per group covering permits, parking and driver-guide overtime allowance."
+        }
+      ],
+      "review_refs": []
+    },
+    {
+      "line_id": "L07",
+      "description": "Transfer CIA to Zone 1 (06H00-21H00) - with Guide",
+      "region": "Cape Town",
+      "date_start": "2027-07-09",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "210.00",
+        "currency": "USD"
+      },
+      "units_charged": 1,
+      "calculation": "1 vehicle x 1 one way x USD 210.00, per vehicle one way + 1 group x 1 transfer x USD 65.00",
+      "total": {
+        "amount": "275.00",
+        "currency": "USD"
+      },
+      "confidence": "assumed",
+      "confidence_reason": "1 group x 1 transfer x USD 65.00 = USD 65.00 (Trailer supplement, charged per transfer: 2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer.) Party of 5 is below the pack's stated threshold of 6.",
+      "resolution": {
+        "winner": "R05",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00 per vehicle one way Zone 1 covers City Bowl, Atlantic Seaboard, V&A."
+        },
+        "rule": "best match 0.98, clear of the runner-up by 0.10",
+        "rejected": [
+          {
+            "rate_id": "R06",
+            "product": "Transfer CIA to Zone 1, 21H00–06H00, with guide",
+            "score": 0.875,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "2",
+              "quote": "Transfer CIA to Zone 1, 21H00–06H00, with guide285.00 per vehicle one way After-hours surcharge applies."
+            }
+          },
+          {
+            "rate_id": "R25",
+            "product": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodges",
+            "score": 0.378,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "7",
+              "quote": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodge3s95.00 per person per way 01 Jan 25 – 31 Dec 26"
+            }
+          },
+          {
+            "rate_id": "R26",
+            "product": "Speedboat transfer VNX – Benguerra island lodges",
+            "score": 0.371,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "7",
+              "quote": "Speedboat transfer VNX – Benguerra island lodges 145.00 per person per way 01 Jan 25 – 31 Dec 26"
+            }
+          }
+        ],
+        "reason": "'Transfer CIA to Zone 1 (06H00-21H00) - with Guide' matched 'Transfer CIA to Zone 1, 06H00–21H00, with guide'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00 per vehicle one way Zone 1 covers City Bowl, Atlantic Seaboard, V&A."
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer."
+        }
+      ],
+      "review_refs": [
+        "Q04"
+      ]
+    },
+    {
+      "line_id": "L08",
+      "description": "Zambezi Air",
+      "region": "Cape Town",
+      "date_start": "2027-07-09",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": null,
+      "units_charged": null,
+      "calculation": null,
+      "total": null,
+      "confidence": "unresolved",
+      "confidence_reason": "Airfares are not carried in this pack.",
+      "resolution": {
+        "winner": null,
+        "winner_source": null,
+        "rule": "best match 0.36 is below the floor of 0.60",
+        "rejected": [
+          {
+            "rate_id": "R22",
+            "product": "Beach Villa",
+            "score": 0.364,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R01",
+            "product": "Family Suite",
+            "score": 0.261,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Family Suite Bed & Breakfast 340.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R23",
+            "product": "Infinity Beach Villa",
+            "score": 0.258,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Infinity Beach Villa 1,040.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R10",
+            "product": "Family Chalet",
+            "score": 0.25,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "Family Chalet 620.00 890.00 per chalet per night"
+            }
+          }
+        ],
+        "reason": "No product in the pack describes 'Zambezi Air'."
+      },
+      "provenance": [],
+      "review_refs": [
+        "Q05"
+      ]
+    },
+    {
+      "line_id": "L09",
+      "description": "Complimentary scheduled transfer",
+      "region": "Marula Reserve",
+      "date_start": "2027-07-09",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": null,
+      "units_charged": null,
+      "calculation": "2 nights at the destination meets the 2-night threshold",
+      "total": {
+        "amount": "0",
+        "currency": "USD"
+      },
+      "confidence": "contracted",
+      "confidence_reason": "No charge: Complimentary scheduled road transfer from Hoedspruit Airport (HDS) is included for guests staying two nights or more.",
+      "resolution": {
+        "winner": null,
+        "winner_source": null,
+        "rule": "best match 0.43 is below the floor of 0.60",
+        "rejected": [
+          {
+            "rate_id": "R09",
+            "product": "Custom Private Tour, full day",
+            "score": 0.426,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "2",
+              "quote": "Custom Private Tour, full day 145.00 per person Guide and vehicle included. See note 2b."
+            }
+          },
+          {
+            "rate_id": "R10",
+            "product": "Family Chalet",
+            "score": 0.4,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "Family Chalet 620.00 890.00 per chalet per night"
+            }
+          },
+          {
+            "rate_id": "R11",
+            "product": "Family Chalet",
+            "score": 0.4,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "Family Chalet 620.00 890.00 per chalet per night"
+            }
+          },
+          {
+            "rate_id": "R08",
+            "product": "Full Day Peninsula Scenic Tour, private",
+            "score": 0.366,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "2",
+              "quote": "Full Day Peninsula Scenic Tour, private 480.00 per vehicle Max 7 pax per vehicle. Entrances included."
+            }
+          }
+        ],
+        "reason": "No product in the pack describes 'Complimentary scheduled transfer'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Complimentary scheduled road transfer from Hoedspruit Airport (HDS) is included for guests staying two nights or more."
+        }
+      ],
+      "review_refs": []
+    },
+    {
+      "line_id": "L10-1",
+      "description": "Family Chalet on a Fully Inclusive (Selected beverages) basis",
+      "region": "Marula Reserve",
+      "date_start": "2027-07-09",
+      "date_end": "2027-07-11",
+      "quantity": 1,
+      "unit_price": {
+        "amount": "890.00",
+        "currency": "USD"
+      },
+      "units_charged": 2,
+      "calculation": "1 x 2 nights, per chalet per night + 2 pax x 2 nights x USD 28.00",
+      "total": {
+        "amount": "1622.00",
+        "currency": "USD"
+      },
+      "confidence": "assumed",
+      "confidence_reason": "2 pax x 2 nights x USD 28.00 = USD 112.00 (Conservation levy: Marula Reserve Conservation Levy: 28.00 per person per night, compulsory, payable on all stays.) Charged for 2 as quoted; the pack makes it payable for 5.",
+      "resolution": {
+        "winner": "R10",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Family Chalet 620.00 890.00 per chalet per night"
+        },
+        "rule": "room type matched the supplier's product name exactly",
+        "rejected": [],
+        "reason": "'Family Chalet' is listed by Marula River Lodge."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Family Chalet 620.00 890.00 per chalet per night"
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Family Chalet 620.00 890.00 per chalet per night"
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Marula Reserve Conservation Levy: 28.00 per person per night, compulsory, payable on all stays."
+        }
+      ],
+      "review_refs": [
+        "Q06",
+        "Q07"
+      ]
+    },
+    {
+      "line_id": "L10-2",
+      "description": "Tented Pool Suite on a Fully Inclusive (Selected beverages) basis",
+      "region": "Marula Reserve",
+      "date_start": "2027-07-09",
+      "date_end": "2027-07-11",
+      "quantity": 1,
+      "unit_price": {
+        "amount": "760.00",
+        "currency": "USD"
+      },
+      "units_charged": 2,
+      "calculation": "1 x 2 nights, per suite per night",
+      "total": {
+        "amount": "1300.00",
+        "currency": "USD"
+      },
+      "confidence": "assumed",
+      "confidence_reason": null,
+      "resolution": {
+        "winner": "R12",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Tented Pool Suite 540.00 760.00 per suite per night"
+        },
+        "rule": "room type matched the supplier's product name exactly",
+        "rejected": [],
+        "reason": "'Tented Pool Suite' is listed by Marula River Lodge."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Tented Pool Suite 540.00 760.00 per suite per night"
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Tented Pool Suite 540.00 760.00 per suite per night"
+        }
+      ],
+      "review_refs": [
+        "Q08"
+      ]
+    },
+    {
+      "line_id": "L11",
+      "description": "HDS to Kudu Sands Lodges",
+      "region": "Hoedspruit",
+      "date_start": "2027-07-11",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": null,
+      "units_charged": null,
+      "calculation": null,
+      "total": null,
+      "confidence": "unresolved",
+      "confidence_reason": "not priced: the service named is not the service routed The pack makes this fee conditional: Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry.",
+      "resolution": {
+        "winner": null,
+        "winner_source": null,
+        "rule": "the line's label and its own routing describe different movements",
+        "rejected": [],
+        "reason": "The service is labelled 'HDS to Kudu Sands Lodges', but the movement is 'Marula River Lodge' to 'Kudu Ridge Private Game Reserve'. The label's origin appears nowhere in the routing, so the priced service is not the service being performed."
+      },
+      "provenance": [],
+      "review_refs": [
+        "Q09",
+        "Q10",
+        "Q11"
+      ]
+    },
+    {
+      "line_id": "L12-1",
+      "description": "2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis",
+      "region": "Hoedspruit",
+      "date_start": "2027-07-11",
+      "date_end": "2027-07-14",
+      "quantity": 2,
+      "unit_price": {
+        "amount": "890.00",
+        "currency": "USD"
+      },
+      "units_charged": 15,
+      "calculation": "5 x 3 nights, per person sharing per night + third guest at the standard per person sharing rate + 3 pax x 3 nights x USD 35.00",
+      "total": {
+        "amount": "13665.00",
+        "currency": "USD"
+      },
+      "confidence": "contracted",
+      "confidence_reason": "third guest at the standard per person sharing rate = USD 0.00 (No supplement and no reduction: 4a. Triple occupancy is available in Luxury Suites on request.) Note 4a makes the third guest chargeable at the standard rate; the release itself is not something the pack confirms. 3 pax x 3 nights x USD 35.00 = USD 315.00 (Conservation levy: Kudu Sands Conservation Levy: 35.00 per person per night, compulsory.) Charged for 3 as quoted; the pack makes it payable for 5. Capacity 4 is reconciled by note 4a, not by this clause.",
+      "resolution": {
+        "winner": "R16",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "4",
+          "quote": "Luxury Suite 890.00 per person sharing per night Max 2 adults. See note 4a for triple."
+        },
+        "rule": "room type matched the supplier's product name exactly",
+        "rejected": [],
+        "reason": "'Luxury Suite' is listed by Kudu Ridge Private Game Reserve."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "4",
+          "quote": "Luxury Suite 890.00 per person sharing per night Max 2 adults. See note 4a for triple."
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "4",
+          "quote": "Luxury Suite 890.00 per person sharing per night Max 2 adults. See note 4a for triple."
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "4",
+          "quote": "Luxury Suite 890.00 per person sharing per night Max 2 adults. See note 4a for triple."
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "4",
+          "quote": "4a. Triple occupancy is available in Luxury Suites on request."
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "4",
+          "quote": "Kudu Sands Conservation Levy: 35.00 per person per night, compulsory."
+        }
+      ],
+      "review_refs": [
+        "Q12",
+        "Q13",
+        "Q14"
+      ]
+    },
+    {
+      "line_id": "L13",
+      "description": "KMIA to Kudu Sands Lodges",
+      "region": "Kruger Mpumalanga Airport",
+      "date_start": "2027-07-14",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": null,
+      "units_charged": null,
+      "calculation": null,
+      "total": null,
+      "confidence": "unresolved",
+      "confidence_reason": "not priced: the service named is not the service routed The pack makes this fee conditional: Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. The pack makes this fee conditional: Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Charged for 1 as quoted, on a unit of per pax per entry.",
+      "resolution": {
+        "winner": null,
+        "winner_source": null,
+        "rule": "the line's label and its own routing describe different movements",
+        "rejected": [],
+        "reason": "The service is labelled 'KMIA to Kudu Sands Lodges', but 'Kudu Ridge Private Game Reserve' is where the movement starts: the label's destination is the movement's origin. The label reads backwards against the routing on its own line."
+      },
+      "provenance": [],
+      "review_refs": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20"
+      ]
+    },
+    {
+      "line_id": "L14",
+      "description": "Zambezi Air",
+      "region": "Nelspruit",
+      "date_start": "2027-07-14",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": null,
+      "units_charged": null,
+      "calculation": null,
+      "total": null,
+      "confidence": "unresolved",
+      "confidence_reason": "Airfares are not carried in this pack.",
+      "resolution": {
+        "winner": null,
+        "winner_source": null,
+        "rule": "best match 0.36 is below the floor of 0.60",
+        "rejected": [
+          {
+            "rate_id": "R22",
+            "product": "Beach Villa",
+            "score": 0.364,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R01",
+            "product": "Family Suite",
+            "score": 0.261,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Family Suite Bed & Breakfast 340.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R23",
+            "product": "Infinity Beach Villa",
+            "score": 0.258,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Infinity Beach Villa 1,040.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R10",
+            "product": "Family Chalet",
+            "score": 0.25,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "Family Chalet 620.00 890.00 per chalet per night"
+            }
+          }
+        ],
+        "reason": "No product in the pack describes 'Zambezi Air'."
+      },
+      "provenance": [],
+      "review_refs": [
+        "Q21"
+      ]
+    },
+    {
+      "line_id": "L15",
+      "description": "Helicopter Transfer",
+      "region": "Benguerra",
+      "date_start": "2027-07-14",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "395.00",
+        "currency": "USD"
+      },
+      "units_charged": 5,
+      "calculation": "5 persons x 1 one way x USD 395.00, per person per way",
+      "total": {
+        "amount": "1975.00",
+        "currency": "USD"
+      },
+      "confidence": "expired",
+      "confidence_reason": "Carried-forward tariff; the pack states validity 01 Jan 25 – 31 Dec 26 (2025 tariff, carried forward). Pack section 7: \"Reconfirm before quoting.\" Where a supplier has not yet released 2027 rates the most recent published tariff is carried forward and the validity date is shown in the Validity column. The whole of USD 1,975.00 rests on that tariff, and the pack gives no basis for saying how far the 2027 rate will move. Carried-forward rates are indicative only. The whole of USD 1,975.00 rests on that tariff, and the pack gives no basis for saying how far the 2027 rate will move. 2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled. The whole of USD 1,975.00 rests on that tariff, and the pack gives no basis for saying how far the 2027 rate will move.",
+      "resolution": {
+        "winner": "R25",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "7",
+          "quote": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodge3s95.00 per person per way 01 Jan 25 – 31 Dec 26"
+        },
+        "rule": "best match 0.75, clear of the runner-up by 0.34",
+        "rejected": [
+          {
+            "rate_id": "R14",
+            "product": "River Lodge Standard",
+            "score": 0.41,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "River Lodge Standard 460.00 640.00 per room per night"
+            }
+          },
+          {
+            "rate_id": "R15",
+            "product": "River Lodge Standard",
+            "score": 0.41,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "River Lodge Standard 460.00 640.00 per room per night"
+            }
+          },
+          {
+            "rate_id": "R26",
+            "product": "Speedboat transfer VNX – Benguerra island lodges",
+            "score": 0.358,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "7",
+              "quote": "Speedboat transfer VNX – Benguerra island lodges 145.00 per person per way 01 Jan 25 – 31 Dec 26"
+            }
+          }
+        ],
+        "reason": "'Helicopter Transfer' matched 'Helicopter transfer VNX (Vilanculos) – Benguerra island lodges'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "7",
+          "quote": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodge3s95.00 per person per way 01 Jan 25 – 31 Dec 26"
+        }
+      ],
+      "review_refs": [
+        "Q22"
+      ]
+    },
+    {
+      "line_id": "L16-1",
+      "description": "1 x Beach Villa",
+      "region": "Benguerra",
+      "date_start": "2027-07-14",
+      "date_end": "2027-07-17",
+      "quantity": 1,
+      "unit_price": {
+        "amount": "780.00",
+        "currency": "USD"
+      },
+      "units_charged": 3,
+      "calculation": "1 x 3 nights, per villa per night",
+      "total": {
+        "amount": "2340.00",
+        "currency": "USD"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "resolution": {
+        "winner": "R22",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "6",
+          "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+        },
+        "rule": "room type matched the supplier's product name exactly",
+        "rejected": [],
+        "reason": "'Beach Villa' is listed by Ilha Azul Beach Lodge."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "6",
+          "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "6",
+          "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "6",
+          "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+        }
+      ],
+      "review_refs": []
+    },
+    {
+      "line_id": "L16-2",
+      "description": "1 x Beach Villa Grande",
+      "region": "Benguerra",
+      "date_start": "2027-07-14",
+      "date_end": "2027-07-17",
+      "quantity": 1,
+      "unit_price": null,
+      "units_charged": null,
+      "calculation": null,
+      "total": null,
+      "confidence": "unresolved",
+      "confidence_reason": null,
+      "resolution": {
+        "winner": null,
+        "winner_source": null,
+        "rule": "no product of this supplier carries this room type",
+        "rejected": [
+          {
+            "rate_id": "R22",
+            "product": "Beach Villa",
+            "score": 0.759,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R23",
+            "product": "Infinity Beach Villa",
+            "score": 0.579,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Infinity Beach Villa 1,040.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R24",
+            "product": "Presidential Villa",
+            "score": 0.444,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Presidential Villa 2,150.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          }
+        ],
+        "reason": "Ilha Azul Beach Lodge does not list 'Beach Villa Grande'. Similar names were found and rejected: a room type that is nearly right is a different room at a different price."
+      },
+      "provenance": [],
+      "review_refs": [
+        "Q23"
+      ]
+    },
+    {
+      "line_id": "L17",
+      "description": "Helicopter Transfer",
+      "region": "Benguerra",
+      "date_start": "2027-07-17",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "395.00",
+        "currency": "USD"
+      },
+      "units_charged": 5,
+      "calculation": "5 persons x 1 one way x USD 395.00, per person per way",
+      "total": {
+        "amount": "1975.00",
+        "currency": "USD"
+      },
+      "confidence": "expired",
+      "confidence_reason": "Carried-forward tariff; the pack states validity 01 Jan 25 – 31 Dec 26 (2025 tariff, carried forward). Pack section 7: \"Reconfirm before quoting.\" Where a supplier has not yet released 2027 rates the most recent published tariff is carried forward and the validity date is shown in the Validity column. The whole of USD 1,975.00 rests on that tariff, and the pack gives no basis for saying how far the 2027 rate will move. Carried-forward rates are indicative only. The whole of USD 1,975.00 rests on that tariff, and the pack gives no basis for saying how far the 2027 rate will move. 2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled. The whole of USD 1,975.00 rests on that tariff, and the pack gives no basis for saying how far the 2027 rate will move.",
+      "resolution": {
+        "winner": "R25",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "7",
+          "quote": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodge3s95.00 per person per way 01 Jan 25 – 31 Dec 26"
+        },
+        "rule": "best match 0.75, clear of the runner-up by 0.34",
+        "rejected": [
+          {
+            "rate_id": "R14",
+            "product": "River Lodge Standard",
+            "score": 0.41,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "River Lodge Standard 460.00 640.00 per room per night"
+            }
+          },
+          {
+            "rate_id": "R15",
+            "product": "River Lodge Standard",
+            "score": 0.41,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "River Lodge Standard 460.00 640.00 per room per night"
+            }
+          },
+          {
+            "rate_id": "R26",
+            "product": "Speedboat transfer VNX – Benguerra island lodges",
+            "score": 0.358,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "7",
+              "quote": "Speedboat transfer VNX – Benguerra island lodges 145.00 per person per way 01 Jan 25 – 31 Dec 26"
+            }
+          }
+        ],
+        "reason": "'Helicopter Transfer' matched 'Helicopter transfer VNX (Vilanculos) – Benguerra island lodges'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "7",
+          "quote": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodge3s95.00 per person per way 01 Jan 25 – 31 Dec 26"
+        }
+      ],
+      "review_refs": [
+        "Q24"
+      ]
+    },
+    {
+      "line_id": "L18",
+      "description": "Zambezi Air",
+      "region": "Vilancoulos",
+      "date_start": "2027-07-17",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": null,
+      "units_charged": null,
+      "calculation": null,
+      "total": null,
+      "confidence": "unresolved",
+      "confidence_reason": "Airfares are not carried in this pack.",
+      "resolution": {
+        "winner": null,
+        "winner_source": null,
+        "rule": "best match 0.36 is below the floor of 0.60",
+        "rejected": [
+          {
+            "rate_id": "R22",
+            "product": "Beach Villa",
+            "score": 0.364,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Beach Villa 780.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R01",
+            "product": "Family Suite",
+            "score": 0.261,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Family Suite Bed & Breakfast 340.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R23",
+            "product": "Infinity Beach Villa",
+            "score": 0.258,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 3,
+              "section": "6",
+              "quote": "Infinity Beach Villa 1,040.00 per villa per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R10",
+            "product": "Family Chalet",
+            "score": 0.25,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "3",
+              "quote": "Family Chalet 620.00 890.00 per chalet per night"
+            }
+          }
+        ],
+        "reason": "No product in the pack describes 'Zambezi Air'."
+      },
+      "provenance": [],
+      "review_refs": [
+        "Q25"
+      ]
+    },
+    {
+      "line_id": "L19",
+      "description": "One Way Assistance",
+      "region": "Johannesburg",
+      "date_start": "2027-07-17",
+      "date_end": null,
+      "quantity": 1,
+      "unit_price": {
+        "amount": "45.00",
+        "currency": "USD"
+      },
+      "units_charged": 5,
+      "calculation": "5 persons x 1 movement x USD 45.00, per person per movement",
+      "total": {
+        "amount": "225.00",
+        "currency": "USD"
+      },
+      "confidence": "contracted",
+      "confidence_reason": null,
+      "resolution": {
+        "winner": "R04",
+        "winner_source": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "One Way Assistance (Meet & Greet) 45.00 per person per movement Arrival or departure. Charged each way."
+        },
+        "rule": "best match 0.72, clear of the runner-up by 0.25",
+        "rejected": [
+          {
+            "rate_id": "R01",
+            "product": "Family Suite",
+            "score": 0.467,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Family Suite Bed & Breakfast 340.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R03",
+            "product": "Deluxe Sea Facing",
+            "score": 0.4,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 1,
+              "section": "1",
+              "quote": "The Camissa Boutique Hotel Deluxe Sea Facing Bed & Breakfast 295.00 per room per night 01 Jan 27 – 31 Dec 27"
+            }
+          },
+          {
+            "rate_id": "R16",
+            "product": "Luxury Suite",
+            "score": 0.4,
+            "source": {
+              "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+              "page": 2,
+              "section": "4",
+              "quote": "Luxury Suite 890.00 per person sharing per night Max 2 adults. See note 4a for triple."
+            }
+          }
+        ],
+        "reason": "'One Way Assistance' matched 'One Way Assistance (Meet & Greet)'."
+      },
+      "provenance": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "One Way Assistance (Meet & Greet) 45.00 per person per movement Arrival or departure. Charged each way."
+        }
+      ],
+      "review_refs": []
+    }
+  ],
+  "needs_review": [
+    {
+      "review_id": "Q01",
+      "severity": "blocking",
+      "line_id": "L02",
+      "field": "trailer_supplement",
+      "question": "The trailer supplement of USD 65.00 is booked on this transfer for a party of 5. The pack requires it for groups of 6 pax and above, or where luggage exceeds vehicle capacity. Confirm the luggage volume requires a trailer, or remove the supplement.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 1,
+          "section": null,
+          "quote": "Transfer: | Transfer CIA to Zone 1 (06H00-21H00) - with Guide | Per Vehicle One Way | Pick up: CPT | Drop off: The Camissa Boutique Hotel | Included: 1 x Trailer 6+ Pax per group"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q02",
+      "severity": "informational",
+      "line_id": "L03-1",
+      "field": "correspondence_precedence",
+      "question": "This line is priced from supplier correspondence, not from the rate pack. Confirm the revised rate is the one the supplier will invoice.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "9",
+          "quote": "Where a rate has been superseded by written supplier correspondence, the correspondence takes precedence over this pack."
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q03",
+      "severity": "informational",
+      "line_id": "L03-2",
+      "field": "correspondence_precedence",
+      "question": "This line is priced from supplier correspondence, not from the rate pack. Confirm the revised rate is the one the supplier will invoice.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "9",
+          "quote": "Where a rate has been superseded by written supplier correspondence, the correspondence takes precedence over this pack."
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q04",
+      "severity": "blocking",
+      "line_id": "L07",
+      "field": "trailer_supplement",
+      "question": "The trailer supplement of USD 65.00 is booked on this transfer for a party of 5. The pack requires it for groups of 6 pax and above, or where luggage exceeds vehicle capacity. Confirm the luggage volume requires a trailer, or remove the supplement.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": "2",
+          "quote": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Transfer: | Transfer CIA to Zone 1 (06H00-21H00) - with Guide | Per Vehicle One Way | Pick up: The Camissa Boutique Hotel | Drop off: CPT | Included: 1 x Trailer 6+ Pax per group"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q05",
+      "severity": "blocking",
+      "line_id": "L08",
+      "field": "air_not_carried",
+      "question": "Air 4Z, Cape Town to 4Z, Hoedspruit on 09 Jul 27 is not priced. The pack carries no airfares; quote this sector live with the carrier before the quotation is issued.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "8",
+          "quote": "Airfares are not carried in this pack."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Flight: Zambezi Air | Per person | Departure: 4Z, Cape Town | Arrival: 4Z, Hoedspruit"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q06",
+      "severity": "blocking",
+      "line_id": "L10-1",
+      "field": "season",
+      "question": "The night of 09 Jul 27 falls in two published season bands and the pack does not say which applies. 09 Jul 27 falls inside Green Season (Green Season 01 Apr 27 – 09 Jul 27) and Peak Season (Peak Season 09 Jul 27 – 31 Oct 27). Priced at USD 620.00; Peak Season would add USD 270.00. Confirm the band with Marula River Lodge.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Family Chalet 620.00 890.00 per chalet per night"
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Family Chalet 620.00 890.00 per chalet per night"
+        }
+      ],
+      "exposure": {
+        "amount": "270.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "review_id": "Q07",
+      "severity": "blocking",
+      "line_id": "L10-1",
+      "field": "conservation_levy",
+      "question": "The quotation books 2 conservation levies for 5 travellers at Marula River Lodge. The rate pack states the levy is compulsory for all guests. Confirm the levy is payable for 5 guests, not 2.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Marula Reserve Conservation Levy: 28.00 per person per night, compulsory, payable on all stays."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Included: 2 x Consv Levy compulsory pax"
+        }
+      ],
+      "exposure": {
+        "amount": "168.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "review_id": "Q08",
+      "severity": "blocking",
+      "line_id": "L10-2",
+      "field": "season",
+      "question": "The night of 09 Jul 27 falls in two published season bands and the pack does not say which applies. 09 Jul 27 falls inside Green Season (Green Season 01 Apr 27 – 09 Jul 27) and Peak Season (Peak Season 09 Jul 27 – 31 Oct 27). Priced at USD 540.00; Peak Season would add USD 220.00. Confirm the band with Marula River Lodge.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Tented Pool Suite 540.00 760.00 per suite per night"
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "3",
+          "quote": "Tented Pool Suite 540.00 760.00 per suite per night"
+        }
+      ],
+      "exposure": {
+        "amount": "220.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "review_id": "Q09",
+      "severity": "blocking",
+      "line_id": "L11",
+      "field": "routing",
+      "question": "The service is labelled 'HDS to Kudu Sands Lodges', but the movement is 'Marula River Lodge' to 'Kudu Ridge Private Game Reserve'. The label's origin appears nowhere in the routing, so the priced service is not the service being performed. Confirm which movement is being sold, then re-price it.",
+      "evidence": [
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Transfer:Transfers & Tours | HDS to Kudu Sands Lodges | Per Person One Way | Pick up: Marula River Lodge | Drop off: Kudu Ridge Private Game Reserve | Included: 1 x Vehicle Entrance Fee per group"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q10",
+      "severity": "blocking",
+      "line_id": "L11",
+      "field": "modifier",
+      "question": "Vehicle Entrance Fee: Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. This is payable on a line that could not be priced; confirm it once the underlying service is re-quoted.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "5",
+          "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+        }
+      ],
+      "exposure": {
+        "amount": "40.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "review_id": "Q11",
+      "severity": "blocking",
+      "line_id": "L11",
+      "field": "gate_fees",
+      "question": "Confirm with the transfer operator whether the Vehicle Entrance Fee of USD 40.00 is levied at the gate used on 11 Jul 27.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "5",
+          "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Included: 1 x Vehicle Entrance Fee per group"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q12",
+      "severity": "informational",
+      "line_id": "L12-1",
+      "field": "triple_occupancy",
+      "question": "5 guests are booked into 2 Luxury Suite(s) on a triple-occupancy basis. Confirm the supplier has released the triple, which the pack says is on request.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "4",
+          "quote": "4a. Triple occupancy is available in Luxury Suites on request."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "In: Sunday 11 Jul 27 Out: Wednesday 14 Jul 27 | Accommodation: Kudu Ridge Private Game Reserve | 2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis | Included: 3 x Conservation Levy compulsory pax | Included: 1 x Triple per group"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q13",
+      "severity": "blocking",
+      "line_id": "L12-1",
+      "field": "conservation_levy",
+      "question": "The quotation books 3 conservation levies for 5 travellers at Kudu Ridge Private Game Reserve. The rate pack states the levy is compulsory for all guests. Confirm the levy is payable for 5 guests, not 3.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "4",
+          "quote": "Kudu Sands Conservation Levy: 35.00 per person per night, compulsory."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Included: 3 x Conservation Levy compulsory pax"
+        }
+      ],
+      "exposure": {
+        "amount": "210.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "review_id": "Q14",
+      "severity": "informational",
+      "line_id": "L12-1",
+      "field": "capacity_constraint",
+      "question": "5 guests occupy 2 x Luxury Suite against a stated capacity of 4. Note 4a releases the third bed on request and the quotation books a Triple - confirm the release.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Max 2 adults."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "In: Sunday 11 Jul 27 Out: Wednesday 14 Jul 27 | Accommodation: Kudu Ridge Private Game Reserve | 2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis | Included: 3 x Conservation Levy compulsory pax | Included: 1 x Triple per group"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q15",
+      "severity": "blocking",
+      "line_id": "L13",
+      "field": "routing",
+      "question": "The service is labelled 'KMIA to Kudu Sands Lodges', but 'Kudu Ridge Private Game Reserve' is where the movement starts: the label's destination is the movement's origin. The label reads backwards against the routing on its own line. Confirm which movement is being sold, then re-price it.",
+      "evidence": [
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Transfer:Transfers & Tours | KMIA to Kudu Sands Lodges | Per Person One Way | Pick up: Kudu Ridge Private Game Reserve | Drop off: MQP | Included: 1 x Entrance Fee per pax | Included: 1 x Vehicle Entrance Fee per group"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q16",
+      "severity": "blocking",
+      "line_id": "L13",
+      "field": "modifier",
+      "question": "Vehicle Entrance Fee: Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. This is payable on a line that could not be priced; confirm it once the underlying service is re-quoted.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "5",
+          "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+        }
+      ],
+      "exposure": {
+        "amount": "40.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "review_id": "Q17",
+      "severity": "blocking",
+      "line_id": "L13",
+      "field": "gate_fees",
+      "question": "Confirm with the transfer operator whether the Vehicle Entrance Fee of USD 40.00 is levied at the gate used on 14 Jul 27.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "5",
+          "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Included: 1 x Vehicle Entrance Fee per group"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q18",
+      "severity": "blocking",
+      "line_id": "L13",
+      "field": "modifier",
+      "question": "Entrance Fee: Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. This is payable on a line that could not be priced; confirm it once the underlying service is re-quoted.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "5",
+          "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+        }
+      ],
+      "exposure": {
+        "amount": "25.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "review_id": "Q19",
+      "severity": "blocking",
+      "line_id": "L13",
+      "field": "gate_fees",
+      "question": "Confirm with the transfer operator whether the Entrance Fee of USD 25.00 is levied at the gate used on 14 Jul 27.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "5",
+          "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Included: 1 x Entrance Fee per pax"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q20",
+      "severity": "blocking",
+      "line_id": "L13",
+      "field": "gate_fees",
+      "question": "The quotation books 1 x Entrance Fee for 5 travellers, and the pack prices it per pax. Confirm whether the fee is payable for 5.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 2,
+          "section": "5",
+          "quote": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Included: 1 x Entrance Fee per pax"
+        }
+      ],
+      "exposure": {
+        "amount": "100.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "review_id": "Q21",
+      "severity": "blocking",
+      "line_id": "L14",
+      "field": "air_not_carried",
+      "question": "Air 4Z, Nelspruit to 4Z, Vilancoulos on 14 Jul 27 is not priced. The pack carries no airfares; quote this sector live with the carrier before the quotation is issued.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "8",
+          "quote": "Airfares are not carried in this pack."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 2,
+          "section": null,
+          "quote": "Flight: Zambezi Air | Flights | Per person | Departure: 4Z, Nelspruit | Arrival: 4Z, Vilancoulos"
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q22",
+      "severity": "blocking",
+      "line_id": "L15",
+      "field": "carried_forward_tariff",
+      "question": "This line is priced from the 2025 tariff carried forward by the pack. Reconfirm the 2027 rate with the operator before the quotation is issued.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": null,
+          "quote": "Where a supplier has not yet released 2027 rates the most recent published tariff is carried forward and the validity date is shown in the Validity column."
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q23",
+      "severity": "blocking",
+      "line_id": "L16-2",
+      "field": "rate",
+      "question": "No rate in the pack covers '1 x Beach Villa Grande' at Ilha Azul Beach Lodge. Re-quote this service with the supplier before the quotation is issued.",
+      "evidence": [
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 3,
+          "section": null,
+          "quote": "In: Wednesday 14 Jul 27 Out: Saturday 17 Jul 27 | Accommodation: Ilha Azul Beach Lodge | 1 x Beach Villa & 1 x Beach Villa Grande on a Fully Inclusive basis"
+        },
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "9",
+          "quote": "Where a service is shown in an operational quotation but no corresponding rate appears in this pack, the service must be re-quoted with the supplier before the quotation is issued."
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q24",
+      "severity": "blocking",
+      "line_id": "L17",
+      "field": "carried_forward_tariff",
+      "question": "This line is priced from the 2025 tariff carried forward by the pack. Reconfirm the 2027 rate with the operator before the quotation is issued.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 1,
+          "section": null,
+          "quote": "Where a supplier has not yet released 2027 rates the most recent published tariff is carried forward and the validity date is shown in the Validity column."
+        }
+      ],
+      "exposure": null
+    },
+    {
+      "review_id": "Q25",
+      "severity": "blocking",
+      "line_id": "L18",
+      "field": "air_not_carried",
+      "question": "Air 4Z, Vilancoulos to 4Z, Johannesburg on 17 Jul 27 is not priced. The pack carries no airfares; quote this sector live with the carrier before the quotation is issued.",
+      "evidence": [
+        {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "page": 3,
+          "section": "8",
+          "quote": "Airfares are not carried in this pack."
+        },
+        {
+          "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+          "page": 3,
+          "section": null,
+          "quote": "Flight: Zambezi Air | Departure: 4Z, Vilancoulos | Arrival: 4Z, Johannesburg"
+        }
+      ],
+      "exposure": null
+    }
+  ],
+  "totals": {
+    "firm": {
+      "amount": "24167.00",
+      "currency": "USD"
+    },
+    "firm_line_count": 14,
+    "exposure": {
+      "amount": "5023.00",
+      "currency": "USD"
+    },
+    "exposure_line_count": 2,
+    "unpriced_line_count": 6,
+    "unpriced_reasons": [
+      "L08 Zambezi Air: No product in the pack describes 'Zambezi Air'.",
+      "L11 HDS to Kudu Sands Lodges: The service is labelled 'HDS to Kudu Sands Lodges', but the movement is 'Marula River Lodge' to 'Kudu Ridge Private Game Reserve'. The label's origin appears nowhere in the routing, so the priced service is not the service being performed.",
+      "L13 KMIA to Kudu Sands Lodges: The service is labelled 'KMIA to Kudu Sands Lodges', but 'Kudu Ridge Private Game Reserve' is where the movement starts: the label's destination is the movement's origin. The label reads backwards against the routing on its own line.",
+      "L14 Zambezi Air: No product in the pack describes 'Zambezi Air'.",
+      "L16-2 1 x Beach Villa Grande: Ilha Azul Beach Lodge does not list 'Beach Villa Grande'. Similar names were found and rejected: a room type that is nearly right is a different room at a different price.",
+      "L18 Zambezi Air: No product in the pack describes 'Zambezi Air'."
+    ]
+  },
+  "system_warnings": [
+    "L16-1: split by model into 1 x Beach Villa, 1 x Beach Villa Grande — each name verified as a literal span of '1 x Beach Villa & 1 x Beach Villa Grande on a Fully Inclusive basis'."
+  ]
+}

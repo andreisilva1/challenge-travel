@@ -1,0 +1,13 @@
+# Working notes, not part of the submission. ARCHITECTURE.md is the design record and
+# BACKEND.md the writing standard; both drove the code and neither is the code.
+dev/
+
+# Build artefacts.
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Cached model responses, keyed by the hash of the request. Regenerated on the next run,
+# which is why a fresh clone needs Ollama up for the one call in ingestion/llm.py. Without
+# it main.py leaves the composite room line as the document wrote it and says so.
+.cache/

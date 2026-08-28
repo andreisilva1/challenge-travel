@@ -1,0 +1,6 @@
+# Four libraries and the standard library. There is no HTTP client here: the one call to
+# Ollama is a urllib POST to localhost, which is not worth a dependency.
+pdfplumber==0.11.10   # text layer with coordinates; the verbatim check reads what it returns
+pydantic==2.13.4      # the domain types, and the only reason a malformed intermediate.json fails loudly
+rich==15.0.0          # the table
+pytest==9.1.1         # 86 tests
